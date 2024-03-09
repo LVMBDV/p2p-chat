@@ -11,12 +11,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import { App } from "./views/app";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: App(),
-  },
-]);
+const router = createBrowserRouter([{ path: "/", element: App() }]);
 
 const appDomElement = document.createElement("div");
 appDomElement.id = "app";
