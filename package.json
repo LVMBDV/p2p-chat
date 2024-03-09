@@ -4,7 +4,7 @@
     "start": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "lint": "prettier --write . && eslint . && tsc",
+    "lint": "prettier --check . && eslint . && tsc",
     "lint:fix": "prettier --write . && eslint --fix . && tsc",
     "test": "vitest run",
     "test:watch": "vitest watch",
