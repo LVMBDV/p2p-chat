@@ -1,8 +1,9 @@
 # p2p-chat
 
 This is a project meant as a joint exercise in practice of clean code &
-architecture principles. For its frontend, it uses React with the Material UI
-from the MUI team. For its peer-to-peer networking it uses PeerJS.
+architecture principles. For it's frontend, it uses React with the Material UI
+from [the MUI team](https://mui.com/about/). For it's peer-to-peer networking it
+uses [PeerJS](https://peerjs.com/).
 
 # Development
 
