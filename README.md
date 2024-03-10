@@ -11,6 +11,19 @@ MUI team. For its peer-to-peer networking it uses [PeerJS](https://peerjs.com/).
 
 # Development
 
+You can start the development server with:
+
+```
+npm start
+```
+
+We use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
+for formatting of commit messages. This is enforced by commitlint as a pre-commit hook.
+
+We use a `.nvmrc` file to denote the node version used across the project.
+Please make sure you use the right Node version by using a version manager like
+[fnm](https://github.com/Schniz/fnm) or [nvm](https://github.com/nvm-sh/nvm).
+
 # Testing
 
 You can run all tests with:
