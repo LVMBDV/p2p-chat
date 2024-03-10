@@ -20,6 +20,6 @@ jobs:
       - name: Run linters
         run: npm run lint
       - name: Run tests
-        run: npx vitest --coverage --coverage.reporter json
+        run: npx vitest run --coverage
       - name: Report coverage
         uses: davelosert/vitest-coverage-report-action@v2
